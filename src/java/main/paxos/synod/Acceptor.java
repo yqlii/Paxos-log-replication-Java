@@ -13,7 +13,7 @@ import static utilities.PaxosMsgs.Paxos.Type.*;
  * If process is an acceptor, it only has a single thread.
  */
 public class Acceptor extends Thread {
-
+//
     //Paxos related states
     private Ballot acceptorBallot;
     private final Set<PValue> accepted;
